@@ -1,4 +1,5 @@
 # PowerShell_to_Python
+
 Sunday December 09, 2018
 I re-installed vscode on 12/09/2018 to have it automatically installed necessary Python plugin and configuration's files, following some good tip from this video from Alan Simpson:
 https://www.youtube.com/watch?v=g-aS9oVY-DA
@@ -13,7 +14,9 @@ C:\Users\tcailleau\AppData\Roaming\Code\User\settings.json
 }
 
 This made me realize that:
-1. Adding the path to "powershell.exe" allows it to run with Powershell without the massage "Activation of the selected Python environment is not supported".... ..."Use Command Prompt"
+
+1. Adding the path to "powershell.exe" allows it to run with Powershell without the message "Activation of the selected Python environment is not supported".... ..."Use Command Prompt"
+
 2. Changing "python.pythonPath" to point to python.exe instead of pythonw.exe display the result in the PowerShell prompt as expected. Note: I renamed the executable python.exe to python370.exe to help document my examples this was run using Python 3.7.0
 
     ],
@@ -32,13 +35,13 @@ It only had this entry:
     "python.pythonPath": "C:\\ProgramData\\Anaconda3\\python.exe"
 }
 
-Which I need to modify to 
+Which I need to modify to:
 
 {
     "python.pythonPath": "C:\\ProgramData\\Anaconda3\\python370.exe"
 }
 
-Running the first Case1.py with cmd.ee (earlier attempt) in this repository returns this (note: I edited the mistake I made and I am only showing what it should have retruned to start with):
+Running the first Case1.py with cmd.ee (earlier attempt) in this repository returns this (note: I edited the mistake I made and I am only showing what it should have returned to start with):
 
 -----------------
 
@@ -51,7 +54,7 @@ C:\Users\tcailleau\Documents\Python\PowerShell_to_Python>C:\ProgramData\Anaconda
 Thierry
 Cailleau
 Traceback (most recent call last):
-  File "c:/Users/tcailleau/Documents/Python/PowerShell_to_Python/Case1.py", line 5, in <module>
+  File "c:/Users/tcailleau/Documents/Python/PowerShell_to_Python/Case1.py", line 5, in \<module>
     Print(name)
 NameError: name 'Print' is not defined
 
@@ -71,7 +74,7 @@ PS C:\Users\tcailleau\Documents\Python\PowerShell_to_Python> & C:/ProgramData/An
 Thierry
 Cailleau
 Traceback (most recent call last):
-  File "c:/Users/tcailleau/Documents/Python/PowerShell_to_Python/Case1.py", line 5, in <module>
+  File "c:/Users/tcailleau/Documents/Python/PowerShell_to_Python/Case1.py", line 5, in \<module>
     Print(name)
 NameError: name 'Print' is not defined
 PS C:\Users\tcailleau\Documents\Python\PowerShell_to_Python>
