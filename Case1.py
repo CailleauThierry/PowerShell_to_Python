@@ -3,6 +3,8 @@ name = 'Cailleau'
 print(Name)
 print(name)
 Print(name)
+# [pylint] Undefined variable 'Print' [E0602] (5, 1)
+# --------------------------------------------------
 # returns in vscode cmd.exe
 # Microsoft Windows [Version 10.0.15063]
 # (c) 2017 Microsoft Corporation. All rights reserved.
