@@ -20,7 +20,7 @@ OS: Windows_NT x64 10.0.15063
 I figured how to make default to PS by ignoring the message "always"
 
 I also had to rename those files to make the debugger work too:
-C:\ProgramData\Anaconda3\python370.exe
+C:\ProgramData\Anaconda3\python370.exe 
 C:\ProgramData\Anaconda3\pythonw370.exe
 C:\ProgramData\Anaconda3\pythonw370.pdb
 
