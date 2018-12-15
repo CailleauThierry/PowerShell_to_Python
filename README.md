@@ -1,6 +1,7 @@
 # PowerShell_to_Python
 
-Sunday December 16, 2018
+## Sunday December 16, 2018
+
 vscode version:
 
 -----------------
@@ -40,7 +41,8 @@ name 'Print' is not defined
 
 -----------------
 
-Sunday December 09, 2018
+## Sunday December 09, 2018
+
 I re-installed vscode on 12/09/2018 to have it automatically installed necessary Python plugin and configuration's files, following some good tip from this video from Alan Simpson:
 <https://www.youtube.com/watch?v=g-aS9oVY-DA>
 
