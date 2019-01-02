@@ -2,11 +2,11 @@
 
 ## Wednesday January 02, 2019
 
-PS C:\Users\tcailleau\Documents\Python\PowerShell_to_Python> C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe .\Identation.ps1 
-Hello Thierry! 
-PS C:\Users\tcailleau\Documents\Python\PowerShell_to_Python> C:\ProgramData\Anaconda3\python370.exe .\Identation.py 
-Hello Thierry! 
-PS C:\Users\tcailleau\Documents\Python\PowerShell_to_Python> 
+PS C:\Users\tcailleau\Documents\Python\PowerShell_to_Python> C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe .\Identation.ps1  
+Hello Thierry!  
+PS C:\Users\tcailleau\Documents\Python\PowerShell_to_Python> C:\ProgramData\Anaconda3\python370.exe .\Identation.py  
+Hello Thierry!  
+PS C:\Users\tcailleau\Documents\Python\PowerShell_to_Python>  
 
 ## Sunday December 16, 2018
 
