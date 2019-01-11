@@ -1,5 +1,13 @@
 # PowerShell_to_Python
 
+## Friday January 11, 2019
+
+Since I installed vscode from anaconda install, I had lost the open with vscode option.
+
+The following post worked for me on Windows 10 after exporting [HKEY_CLASSES_ROOT\*\shell] to create the .reg first and then editing its content with the one from the post below:  
+
+https://thisdavej.com/right-click-on-windows-folder-and-open-with-visual-studio-code/
+
 ## Wednesday January 02, 2019
 
 PS C:\Users\tcailleau\Documents\Python\PowerShell_to_Python> C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe .\Identation.ps1  
